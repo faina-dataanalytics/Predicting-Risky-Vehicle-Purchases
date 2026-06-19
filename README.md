@@ -22,23 +22,23 @@ Das Projekt umfasst:
 
 ## Repository-Struktur
 
-01_projectmanagement/
+01_projectmanagement/  
 └── Project_Brief.md          # Aufgabenstellung, Projektziele
 
-02_data/
+02_data/  
 └── Data_Description.md       # Beschreibung der Features (keine Rohdaten)
 
-03_scripts/
+03_scripts/  
 ├── data_preparation.py       # Bereinigung, Imputation, Normalisierung
 ├── feature_engineering.py    # Neue Features, Preisrelationen, Zeitmerkmale
 ├── modeling.py               # Training verschiedener Modelle
 ├── evaluation.py             # Metriken, Vergleich, Modellselektion
 └── pipeline.ipynb            # Reproduzierbarer Workflow (optional)
 
-04_analysis/
+04_analysis/  
 └── Final_Report_for_Client.md # Geschäftlich orientierter Abschlussbericht
 
-05_visual/ (optional)
+05_visual/  
 └── plots/                    # Wichtige Visualisierungen (EDA, Importances)
 
 README.md
